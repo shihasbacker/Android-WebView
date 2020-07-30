@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_refresh"
+        android:id="@+id/menuRefresh"
+        app:showAsAction="always"
+        android:title="Refresh Page"/>
+    <item
+        android:icon="@drawable/ic_arrow_back"
+        android:id="@+id/menuBack"
+        app:showAsAction="always"
+        android:title="Go Back"/>
+    <!--android:orderInCategory="2" //to order items-->
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_arrow_forward"
+        android:id="@+id/menuForward"
+        android:title="Go Forward"/>
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/menuHome"
+        android:title="Home Page"/>
+
+
+</menu>
